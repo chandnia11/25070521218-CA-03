@@ -1,0 +1,85 @@
+:root {
+  /* StyleMuse Pastel Fashion Palette */
+  --bg-primary: #FFF8FB;
+  --bg-card: #FFFFFF;
+  --bg-blush: #FCE4EC;
+  --bg-blush-subtle: #FFF0F5;
+  --bg-pill: #FDF2F7;
+
+  --primary-pink: #F4B6C2;
+  --primary-hover: #E89EAE;
+  --rose-accent: #C97C91;
+  --rose-dark: #A3586C;
+  --rose-light: #FCE8EE;
+
+  --text-main: #3F3540;
+  --text-secondary: #806F79;
+  --text-muted: #A89CA4;
+  --text-light: #FFFFFF;
+
+  --border-soft: #F5DEE7;
+  --border-focus: #F4B6C2;
+
+  --danger: #E5536F;
+  --danger-bg: #FFF0F2;
+  --danger-border: #FFD2D9;
+
+  --success: #3D9970;
+  --success-bg: #F0FDF4;
+  --success-border: #BBF7D0;
+
+  --radius-xs: 6px;
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-full: 9999px;
+
+  --shadow-subtle: 0 4px 15px rgba(201, 124, 145, 0.06);
+  --shadow-card: 0 8px 24px rgba(201, 124, 145, 0.08);
+  --shadow-hover: 0 14px 30px rgba(201, 124, 145, 0.16);
+  --shadow-pink: 0 8px 20px rgba(244, 182, 194, 0.4);
+
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-primary);
+  color: var(--text-main);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, .brand-font {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--text-main);
+}
+
+button {
+  font-family: var(--font-sans);
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: var(--transition);
+}
+
+input, textarea, select {
+  font-family: var(--font-sans);
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
